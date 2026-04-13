@@ -49,6 +49,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: http-lb
+  namespace: tenant-test
 spec:
   type: LoadBalancer
   selector:
