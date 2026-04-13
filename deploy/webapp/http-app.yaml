@@ -3,6 +3,7 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
   name: http
+  namespace: tenant-test
 spec:
   replicas: 3
   selector:
@@ -63,6 +64,7 @@ kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: http
+  namespace: tenant-test
 spec:
   to:
     kind: Service
