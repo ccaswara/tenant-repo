@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: tenant-test-config
+  namespace: tenant-test 
+data:
+  status: "Erfolgreich"
+  message: "Flux nutzt den default ServiceAccount"
