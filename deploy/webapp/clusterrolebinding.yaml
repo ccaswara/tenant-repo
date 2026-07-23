@@ -10,4 +10,5 @@ subjects:
 - kind: ServiceAccount
   name: default
   namespace: tenant-repo
-
+- kind: User
+  name: boeseruser
